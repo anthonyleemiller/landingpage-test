@@ -2,6 +2,7 @@ body {
     background-color: lightgreen;
     display: flex;
     flex-direction: column;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .title {
@@ -11,10 +12,25 @@ body {
     margin: 10px 5px 10px 5px;
     justify-content: space-evenly;
     align-items: center;
+    flex: 1;
 }
 
 .title #logo {
     display: flex;
     flex-direction: column;
     flex: 0 0 auto;
+}
+
+.title ul {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 55px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightgrey;
+    color: black;
 }
